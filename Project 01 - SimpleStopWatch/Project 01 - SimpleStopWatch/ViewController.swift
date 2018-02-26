@@ -14,10 +14,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var playButton: UIButton!
     @IBOutlet weak var pauseButton: UIButton!
     // Variables
-    var count = 0.0
+    var count = 0
     var timer = Timer()
     var resumeTapped = false
     var startTime = TimeInterval()
+    var isRunning = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,29 +29,31 @@ class ViewController: UIViewController {
     
     // MARK : @IBAction methods
     @IBAction func startButtonTapped(_ sender: UIButton) {
-        runTimer()
-        self.resumeTapped = false
+        isRunning ? self.isRunning = true : runTimer()
     }
     
     @IBAction func pauseButtonTapped(_ sender: UIButton) {
         resumeTapped ? self.resumeTapped = true : timer.invalidate()
+        isRunning = false
     }
     
     @IBAction func resetButtonTapped(_ sender: UIButton) {
         timer.invalidate()
-        count = 0.0
+        count = 0
         timeLabel.text = "00:00:00"
+        isRunning = false
     }
     
     // MARK : Private methods
     
     @objc private func updateTimer() {
         count += 1
-        timeLabel.text = timeString(time: count)
+        timeLabel.text = timeString(time: TimeInterval(count))
     }
     
     private func timeString(time: TimeInterval) -> String {
         let timeMs = time / 1000
+        print(timeMs)
         let minutes = Int((timeMs/60).truncatingRemainder(dividingBy: 60))
         let seconds = Int((timeMs).truncatingRemainder(dividingBy: 60))
         let ms = Int((timeMs*100).truncatingRemainder(dividingBy: 100))
@@ -59,6 +62,8 @@ class ViewController: UIViewController {
     }
     
     private func runTimer() {
+        self.resumeTapped = false
+        isRunning = true
         timer = Timer.scheduledTimer(timeInterval: 0.001, target: self, selector: #selector(updateTimer), userInfo: nil, repeats: true)
     }
     
