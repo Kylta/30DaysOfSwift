@@ -14,9 +14,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var playButton: UIButton!
     @IBOutlet weak var pauseButton: UIButton!
     // Variables
-    var seconds = 0.0
+    var count = 0.0
     var timer = Timer()
     var resumeTapped = false
+    var startTime = TimeInterval()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,25 +33,33 @@ class ViewController: UIViewController {
     }
     
     @IBAction func pauseButtonTapped(_ sender: UIButton) {
-        guard resumeTapped else { timer.invalidate(); return }
-        self.resumeTapped = true
+        resumeTapped ? self.resumeTapped = true : timer.invalidate()
     }
     
     @IBAction func resetButtonTapped(_ sender: UIButton) {
         timer.invalidate()
-        seconds = 0.0
-        timeLabel.text = "\(seconds)"
+        count = 0.0
+        timeLabel.text = "00:00:00"
     }
     
     // MARK : Private methods
     
     @objc private func updateTimer() {
-        seconds += 0.1
-        timeLabel.text = "\(seconds)"
+        count += 1
+        timeLabel.text = timeString(time: count)
+    }
+    
+    private func timeString(time: TimeInterval) -> String {
+        let timeMs = time / 1000
+        let minutes = Int((timeMs/60).truncatingRemainder(dividingBy: 60))
+        let seconds = Int((timeMs).truncatingRemainder(dividingBy: 60))
+        let ms = Int((timeMs*100).truncatingRemainder(dividingBy: 100))
+        
+        return String(format:"%02d:%02d:%02d", minutes, seconds, ms)
     }
     
     private func runTimer() {
-        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(updateTimer), userInfo: nil, repeats: true)
+        timer = Timer.scheduledTimer(timeInterval: 0.001, target: self, selector: #selector(updateTimer), userInfo: nil, repeats: true)
     }
     
     private func customSetImagePlayButton() {
@@ -63,4 +72,3 @@ class ViewController: UIViewController {
         pauseButton.tintColor = .white
     }
 }
-
