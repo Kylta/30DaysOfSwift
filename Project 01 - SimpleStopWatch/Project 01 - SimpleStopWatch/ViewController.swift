@@ -9,18 +9,14 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    // @IBOutlet
     @IBOutlet weak var timeLabel: UILabel!
     @IBOutlet weak var playButton: UIButton!
     @IBOutlet weak var pauseButton: UIButton!
-    
-    
+    // Variables
     var seconds = 0.0
     var timer = Timer()
-    var isTimerRunning = false
     var resumeTapped = false
-    
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,7 +26,6 @@ class ViewController: UIViewController {
     }
     
     // MARK : @IBAction methods
-    
     @IBAction func startButtonTapped(_ sender: UIButton) {
         runTimer()
         self.resumeTapped = false
@@ -39,12 +34,10 @@ class ViewController: UIViewController {
     @IBAction func pauseButtonTapped(_ sender: UIButton) {
         guard resumeTapped else { timer.invalidate(); return }
         self.resumeTapped = true
-        
     }
     
     @IBAction func resetButtonTapped(_ sender: UIButton) {
         timer.invalidate()
-        
         seconds = 0.0
         timeLabel.text = "\(seconds)"
     }
@@ -69,7 +62,5 @@ class ViewController: UIViewController {
         pauseButton.setImage(UIImage(named: "Pause")?.withRenderingMode(.alwaysTemplate), for: .normal)
         pauseButton.tintColor = .white
     }
-
-
 }
 
