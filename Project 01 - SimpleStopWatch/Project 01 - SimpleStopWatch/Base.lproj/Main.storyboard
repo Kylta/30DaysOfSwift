@@ -24,10 +24,16 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jrb-hH-uxP">
                                         <rect key="frame" x="0.0" y="0.0" width="187.5" height="447"/>
                                         <color key="backgroundColor" red="0.32757019999999998" green="0.35534387830000003" blue="0.95299237969999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <connections>
+                                            <action selector="startButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jga-du-lwL"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ddK-Uh-6zy">
                                         <rect key="frame" x="187.5" y="0.0" width="187.5" height="447"/>
                                         <color key="backgroundColor" red="0.39122223849999999" green="0.59225606919999996" blue="0.1841926575" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <connections>
+                                            <action selector="pauseButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eQl-uC-rDG"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -37,6 +43,9 @@
                                 <state key="normal" title="Reset">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="resetButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ibv-jf-kd1"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o0g-lf-a8N">
                                 <rect key="frame" x="16" y="58" width="343" height="154"/>
