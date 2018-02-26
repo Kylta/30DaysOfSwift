@@ -10,14 +10,26 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var timeLabel: UILabel!
+    @IBOutlet weak var playButton: UIButton!
+    @IBOutlet weak var pauseButton: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        customSetImagePlayButton()
+        customSetImagePauseButton()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    private func customSetImagePlayButton() {
+        playButton.setImage(UIImage(named: "Play")?.withRenderingMode(.alwaysTemplate), for: .normal)
+        playButton.tintColor = .white
+    }
+    
+    private func customSetImagePauseButton() {
+        pauseButton.setImage(UIImage(named: "Pause")?.withRenderingMode(.alwaysTemplate), for: .normal)
+        pauseButton.tintColor = .white
     }
 
 

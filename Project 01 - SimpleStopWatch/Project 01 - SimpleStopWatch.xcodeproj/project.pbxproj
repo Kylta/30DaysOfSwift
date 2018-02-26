@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		46BE57A320440F9E00AE7E8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BE57A220440F9E00AE7E8E /* AppDelegate.swift */; };
-		46BE57A520440F9E00AE7E8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BE57A420440F9E00AE7E8E /* ViewController.swift */; };
-		46BE57A820440F9E00AE7E8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46BE57A620440F9E00AE7E8E /* Main.storyboard */; };
-		46BE57AA20440F9E00AE7E8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46BE57A920440F9E00AE7E8E /* Assets.xcassets */; };
-		46BE57AD20440F9E00AE7E8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46BE57AB20440F9E00AE7E8E /* LaunchScreen.storyboard */; };
+		46AC7B67204417E5004AE934 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AC7B66204417E5004AE934 /* AppDelegate.swift */; };
+		46AC7B69204417E5004AE934 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AC7B68204417E5004AE934 /* ViewController.swift */; };
+		46AC7B6C204417E5004AE934 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46AC7B6A204417E5004AE934 /* Main.storyboard */; };
+		46AC7B6E204417E5004AE934 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46AC7B6D204417E5004AE934 /* Assets.xcassets */; };
+		46AC7B71204417E5004AE934 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46AC7B6F204417E5004AE934 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		46BE579F20440F9E00AE7E8E /* Project 01 - SimpleStopWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 01 - SimpleStopWatch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		46BE57A220440F9E00AE7E8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		46BE57A420440F9E00AE7E8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		46BE57A720440F9E00AE7E8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		46BE57A920440F9E00AE7E8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		46BE57AC20440F9E00AE7E8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		46BE57AE20440F9E00AE7E8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46AC7B63204417E5004AE934 /* Project 01 - SimpleStopWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 01 - SimpleStopWatch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46AC7B66204417E5004AE934 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46AC7B68204417E5004AE934 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		46AC7B6B204417E5004AE934 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46AC7B6D204417E5004AE934 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46AC7B70204417E5004AE934 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46AC7B72204417E5004AE934 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		46BE579C20440F9E00AE7E8E /* Frameworks */ = {
+		46AC7B60204417E5004AE934 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,31 +35,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		46BE579620440F9E00AE7E8E = {
+		46AC7B5A204417E5004AE934 = {
 			isa = PBXGroup;
 			children = (
-				46BE57A120440F9E00AE7E8E /* Project 01 - SimpleStopWatch */,
-				46BE57A020440F9E00AE7E8E /* Products */,
+				46AC7B65204417E5004AE934 /* Project 01 - SimpleStopWatch */,
+				46AC7B64204417E5004AE934 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		46BE57A020440F9E00AE7E8E /* Products */ = {
+		46AC7B64204417E5004AE934 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				46BE579F20440F9E00AE7E8E /* Project 01 - SimpleStopWatch.app */,
+				46AC7B63204417E5004AE934 /* Project 01 - SimpleStopWatch.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		46BE57A120440F9E00AE7E8E /* Project 01 - SimpleStopWatch */ = {
+		46AC7B65204417E5004AE934 /* Project 01 - SimpleStopWatch */ = {
 			isa = PBXGroup;
 			children = (
-				46BE57A220440F9E00AE7E8E /* AppDelegate.swift */,
-				46BE57A420440F9E00AE7E8E /* ViewController.swift */,
-				46BE57A620440F9E00AE7E8E /* Main.storyboard */,
-				46BE57A920440F9E00AE7E8E /* Assets.xcassets */,
-				46BE57AB20440F9E00AE7E8E /* LaunchScreen.storyboard */,
-				46BE57AE20440F9E00AE7E8E /* Info.plist */,
+				46AC7B66204417E5004AE934 /* AppDelegate.swift */,
+				46AC7B68204417E5004AE934 /* ViewController.swift */,
+				46AC7B6A204417E5004AE934 /* Main.storyboard */,
+				46AC7B6D204417E5004AE934 /* Assets.xcassets */,
+				46AC7B6F204417E5004AE934 /* LaunchScreen.storyboard */,
+				46AC7B72204417E5004AE934 /* Info.plist */,
 			);
 			path = "Project 01 - SimpleStopWatch";
 			sourceTree = "<group>";
@@ -67,13 +67,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		46BE579E20440F9E00AE7E8E /* Project 01 - SimpleStopWatch */ = {
+		46AC7B62204417E5004AE934 /* Project 01 - SimpleStopWatch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46BE57B120440F9E00AE7E8E /* Build configuration list for PBXNativeTarget "Project 01 - SimpleStopWatch" */;
+			buildConfigurationList = 46AC7B75204417E5004AE934 /* Build configuration list for PBXNativeTarget "Project 01 - SimpleStopWatch" */;
 			buildPhases = (
-				46BE579B20440F9E00AE7E8E /* Sources */,
-				46BE579C20440F9E00AE7E8E /* Frameworks */,
-				46BE579D20440F9E00AE7E8E /* Resources */,
+				46AC7B5F204417E5004AE934 /* Sources */,
+				46AC7B60204417E5004AE934 /* Frameworks */,
+				46AC7B61204417E5004AE934 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -81,26 +81,26 @@
 			);
 			name = "Project 01 - SimpleStopWatch";
 			productName = "Project 01 - SimpleStopWatch";
-			productReference = 46BE579F20440F9E00AE7E8E /* Project 01 - SimpleStopWatch.app */;
+			productReference = 46AC7B63204417E5004AE934 /* Project 01 - SimpleStopWatch.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		46BE579720440F9E00AE7E8E /* Project object */ = {
+		46AC7B5B204417E5004AE934 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Christophe Bugnon";
 				TargetAttributes = {
-					46BE579E20440F9E00AE7E8E = {
+					46AC7B62204417E5004AE934 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 46BE579A20440F9E00AE7E8E /* Build configuration list for PBXProject "Project 01 - SimpleStopWatch" */;
+			buildConfigurationList = 46AC7B5E204417E5004AE934 /* Build configuration list for PBXProject "Project 01 - SimpleStopWatch" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -108,54 +108,54 @@
 				en,
 				Base,
 			);
-			mainGroup = 46BE579620440F9E00AE7E8E;
-			productRefGroup = 46BE57A020440F9E00AE7E8E /* Products */;
+			mainGroup = 46AC7B5A204417E5004AE934;
+			productRefGroup = 46AC7B64204417E5004AE934 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				46BE579E20440F9E00AE7E8E /* Project 01 - SimpleStopWatch */,
+				46AC7B62204417E5004AE934 /* Project 01 - SimpleStopWatch */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		46BE579D20440F9E00AE7E8E /* Resources */ = {
+		46AC7B61204417E5004AE934 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46BE57AD20440F9E00AE7E8E /* LaunchScreen.storyboard in Resources */,
-				46BE57AA20440F9E00AE7E8E /* Assets.xcassets in Resources */,
-				46BE57A820440F9E00AE7E8E /* Main.storyboard in Resources */,
+				46AC7B71204417E5004AE934 /* LaunchScreen.storyboard in Resources */,
+				46AC7B6E204417E5004AE934 /* Assets.xcassets in Resources */,
+				46AC7B6C204417E5004AE934 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		46BE579B20440F9E00AE7E8E /* Sources */ = {
+		46AC7B5F204417E5004AE934 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46BE57A520440F9E00AE7E8E /* ViewController.swift in Sources */,
-				46BE57A320440F9E00AE7E8E /* AppDelegate.swift in Sources */,
+				46AC7B69204417E5004AE934 /* ViewController.swift in Sources */,
+				46AC7B67204417E5004AE934 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		46BE57A620440F9E00AE7E8E /* Main.storyboard */ = {
+		46AC7B6A204417E5004AE934 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				46BE57A720440F9E00AE7E8E /* Base */,
+				46AC7B6B204417E5004AE934 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		46BE57AB20440F9E00AE7E8E /* LaunchScreen.storyboard */ = {
+		46AC7B6F204417E5004AE934 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				46BE57AC20440F9E00AE7E8E /* Base */,
+				46AC7B70204417E5004AE934 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -163,7 +163,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		46BE57AF20440F9E00AE7E8E /* Debug */ = {
+		46AC7B73204417E5004AE934 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -220,7 +220,7 @@
 			};
 			name = Debug;
 		};
-		46BE57B020440F9E00AE7E8E /* Release */ = {
+		46AC7B74204417E5004AE934 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -270,7 +270,7 @@
 			};
 			name = Release;
 		};
-		46BE57B220440F9E00AE7E8E /* Debug */ = {
+		46AC7B76204417E5004AE934 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -284,7 +284,7 @@
 			};
 			name = Debug;
 		};
-		46BE57B320440F9E00AE7E8E /* Release */ = {
+		46AC7B77204417E5004AE934 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -301,25 +301,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		46BE579A20440F9E00AE7E8E /* Build configuration list for PBXProject "Project 01 - SimpleStopWatch" */ = {
+		46AC7B5E204417E5004AE934 /* Build configuration list for PBXProject "Project 01 - SimpleStopWatch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46BE57AF20440F9E00AE7E8E /* Debug */,
-				46BE57B020440F9E00AE7E8E /* Release */,
+				46AC7B73204417E5004AE934 /* Debug */,
+				46AC7B74204417E5004AE934 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46BE57B120440F9E00AE7E8E /* Build configuration list for PBXNativeTarget "Project 01 - SimpleStopWatch" */ = {
+		46AC7B75204417E5004AE934 /* Build configuration list for PBXNativeTarget "Project 01 - SimpleStopWatch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46BE57B220440F9E00AE7E8E /* Debug */,
-				46BE57B320440F9E00AE7E8E /* Release */,
+				46AC7B76204417E5004AE934 /* Debug */,
+				46AC7B77204417E5004AE934 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 46BE579720440F9E00AE7E8E /* Project object */;
+	rootObject = 46AC7B5B204417E5004AE934 /* Project object */;
 }
