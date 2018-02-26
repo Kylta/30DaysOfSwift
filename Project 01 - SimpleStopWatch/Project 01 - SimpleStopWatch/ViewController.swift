@@ -17,7 +17,6 @@ class ViewController: UIViewController {
     var count = 0
     var timer = Timer()
     var resumeTapped = false
-    var startTime = TimeInterval()
     var isRunning = false
     
     override func viewDidLoad() {
@@ -29,11 +28,11 @@ class ViewController: UIViewController {
     
     // MARK : @IBAction methods
     @IBAction func startButtonTapped(_ sender: UIButton) {
-        isRunning ? self.isRunning = true : runTimer()
+        isRunning ? nil : runTimer()
     }
     
     @IBAction func pauseButtonTapped(_ sender: UIButton) {
-        resumeTapped ? self.resumeTapped = true : timer.invalidate()
+        resumeTapped ? nil : timer.invalidate()
         isRunning = false
     }
     
