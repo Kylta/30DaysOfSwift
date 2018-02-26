@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     var seconds = 0.0
     var timer = Timer()
     var isTimerRunning = false
+    var resumeTapped = false
     
     
     
@@ -32,15 +33,21 @@ class ViewController: UIViewController {
     
     @IBAction func startButtonTapped(_ sender: UIButton) {
         runTimer()
+        self.resumeTapped = false
     }
     
     @IBAction func pauseButtonTapped(_ sender: UIButton) {
+        guard resumeTapped else { timer.invalidate(); return }
+        self.resumeTapped = true
+        
     }
     
     @IBAction func resetButtonTapped(_ sender: UIButton) {
+        timer.invalidate()
+        
+        seconds = 0.0
+        timeLabel.text = "\(seconds)"
     }
-    
-    
     
     // MARK : Private methods
     
