@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46D8ACF22046B49900E1BCC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D8ACF12046B49900E1BCC9 /* AppDelegate.swift */; };
+		46D8ACF42046B49900E1BCC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D8ACF32046B49900E1BCC9 /* ViewController.swift */; };
+		46D8ACF92046B49900E1BCC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46D8ACF82046B49900E1BCC9 /* Assets.xcassets */; };
+		46D8ACFC2046B49900E1BCC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46D8ACFA2046B49900E1BCC9 /* LaunchScreen.storyboard */; };
+		46D8AD042046C1B000E1BCC9 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D8AD032046C1B000E1BCC9 /* VideoModel.swift */; };
+		46D8AD062046C94C00E1BCC9 /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D8AD052046C94C00E1BCC9 /* VideoCell.swift */; };
+		46D8AD082046E48300E1BCC9 /* brooklyn-nine-nine.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 46D8AD072046E48300E1BCC9 /* brooklyn-nine-nine.mp4 */; };
+		46D8AD0A2046E49200E1BCC9 /* breaking-bad-trailer-first-season.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 46D8AD092046E49200E1BCC9 /* breaking-bad-trailer-first-season.mp4 */; };
+		46D8AD0C2046E4A500E1BCC9 /* mindhunter-official-trailer-hd-netflix.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 46D8AD0B2046E4A500E1BCC9 /* mindhunter-official-trailer-hd-netflix.mp4 */; };
+		46D8AD0E2046E4B600E1BCC9 /* manhunt.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 46D8AD0D2046E4B600E1BCC9 /* manhunt.mp4 */; };
+		46D8AD102046E4C700E1BCC9 /* mr-robot-season-1-trailer.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 46D8AD0F2046E4C700E1BCC9 /* mr-robot-season-1-trailer.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		46D8ACEE2046B49800E1BCC9 /* Project 03 - Play Local Video.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 03 - Play Local Video.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46D8ACF12046B49900E1BCC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46D8ACF32046B49900E1BCC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		46D8ACF82046B49900E1BCC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46D8ACFB2046B49900E1BCC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46D8ACFD2046B49900E1BCC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46D8AD032046C1B000E1BCC9 /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		46D8AD052046C94C00E1BCC9 /* VideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
+		46D8AD072046E48300E1BCC9 /* brooklyn-nine-nine.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "brooklyn-nine-nine.mp4"; sourceTree = "<group>"; };
+		46D8AD092046E49200E1BCC9 /* breaking-bad-trailer-first-season.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "breaking-bad-trailer-first-season.mp4"; sourceTree = "<group>"; };
+		46D8AD0B2046E4A500E1BCC9 /* mindhunter-official-trailer-hd-netflix.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "mindhunter-official-trailer-hd-netflix.mp4"; sourceTree = "<group>"; };
+		46D8AD0D2046E4B600E1BCC9 /* manhunt.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = manhunt.mp4; sourceTree = "<group>"; };
+		46D8AD0F2046E4C700E1BCC9 /* mr-robot-season-1-trailer.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "mr-robot-season-1-trailer.mp4"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46D8ACEB2046B49800E1BCC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4675D0F4204712C400731A84 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				46D8AD0F2046E4C700E1BCC9 /* mr-robot-season-1-trailer.mp4 */,
+				46D8AD0D2046E4B600E1BCC9 /* manhunt.mp4 */,
+				46D8AD0B2046E4A500E1BCC9 /* mindhunter-official-trailer-hd-netflix.mp4 */,
+				46D8AD092046E49200E1BCC9 /* breaking-bad-trailer-first-season.mp4 */,
+				46D8AD072046E48300E1BCC9 /* brooklyn-nine-nine.mp4 */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		4675D0F52047133000731A84 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				46D8AD032046C1B000E1BCC9 /* VideoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4675D0F62047133800731A84 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				46D8AD052046C94C00E1BCC9 /* VideoCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4675D0F72047134100731A84 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				46D8ACF32046B49900E1BCC9 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		46D8ACE52046B49800E1BCC9 = {
+			isa = PBXGroup;
+			children = (
+				46D8ACF02046B49900E1BCC9 /* Project 03 - Play Local Video */,
+				46D8ACEF2046B49800E1BCC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46D8ACEF2046B49800E1BCC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46D8ACEE2046B49800E1BCC9 /* Project 03 - Play Local Video.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46D8ACF02046B49900E1BCC9 /* Project 03 - Play Local Video */ = {
+			isa = PBXGroup;
+			children = (
+				46D8ACF12046B49900E1BCC9 /* AppDelegate.swift */,
+				4675D0F52047133000731A84 /* Model */,
+				4675D0F62047133800731A84 /* View */,
+				4675D0F72047134100731A84 /* Controller */,
+				46D8ACF82046B49900E1BCC9 /* Assets.xcassets */,
+				46D8ACFA2046B49900E1BCC9 /* LaunchScreen.storyboard */,
+				46D8ACFD2046B49900E1BCC9 /* Info.plist */,
+				4675D0F4204712C400731A84 /* Video */,
+			);
+			path = "Project 03 - Play Local Video";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46D8ACED2046B49800E1BCC9 /* Project 03 - Play Local Video */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46D8AD002046B49900E1BCC9 /* Build configuration list for PBXNativeTarget "Project 03 - Play Local Video" */;
+			buildPhases = (
+				46D8ACEA2046B49800E1BCC9 /* Sources */,
+				46D8ACEB2046B49800E1BCC9 /* Frameworks */,
+				46D8ACEC2046B49800E1BCC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Project 03 - Play Local Video";
+			productName = "Project 03 - Play Local Video";
+			productReference = 46D8ACEE2046B49800E1BCC9 /* Project 03 - Play Local Video.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46D8ACE62046B49800E1BCC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Christophe Bugnon";
+				TargetAttributes = {
+					46D8ACED2046B49800E1BCC9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 46D8ACE92046B49800E1BCC9 /* Build configuration list for PBXProject "Project 03 - Play Local Video" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46D8ACE52046B49800E1BCC9;
+			productRefGroup = 46D8ACEF2046B49800E1BCC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46D8ACED2046B49800E1BCC9 /* Project 03 - Play Local Video */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46D8ACEC2046B49800E1BCC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D8AD102046E4C700E1BCC9 /* mr-robot-season-1-trailer.mp4 in Resources */,
+				46D8AD0E2046E4B600E1BCC9 /* manhunt.mp4 in Resources */,
+				46D8AD0C2046E4A500E1BCC9 /* mindhunter-official-trailer-hd-netflix.mp4 in Resources */,
+				46D8AD0A2046E49200E1BCC9 /* breaking-bad-trailer-first-season.mp4 in Resources */,
+				46D8AD082046E48300E1BCC9 /* brooklyn-nine-nine.mp4 in Resources */,
+				46D8ACFC2046B49900E1BCC9 /* LaunchScreen.storyboard in Resources */,
+				46D8ACF92046B49900E1BCC9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46D8ACEA2046B49800E1BCC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D8ACF42046B49900E1BCC9 /* ViewController.swift in Sources */,
+				46D8AD062046C94C00E1BCC9 /* VideoCell.swift in Sources */,
+				46D8AD042046C1B000E1BCC9 /* VideoModel.swift in Sources */,
+				46D8ACF22046B49900E1BCC9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		46D8ACFA2046B49900E1BCC9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46D8ACFB2046B49900E1BCC9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46D8ACFE2046B49900E1BCC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46D8ACFF2046B49900E1BCC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46D8AD012046B49900E1BCC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Project 03 - Play Local Video/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.christophebugnon.Project-03---Play-Local-Video";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46D8AD022046B49900E1BCC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Project 03 - Play Local Video/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.christophebugnon.Project-03---Play-Local-Video";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46D8ACE92046B49800E1BCC9 /* Build configuration list for PBXProject "Project 03 - Play Local Video" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D8ACFE2046B49900E1BCC9 /* Debug */,
+				46D8ACFF2046B49900E1BCC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46D8AD002046B49900E1BCC9 /* Build configuration list for PBXNativeTarget "Project 03 - Play Local Video" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D8AD012046B49900E1BCC9 /* Debug */,
+				46D8AD022046B49900E1BCC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46D8ACE62046B49800E1BCC9 /* Project object */;
+}
