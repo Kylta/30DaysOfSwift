@@ -11,4 +11,4 @@ Project 02 - [Custom Font](https://github.com/Kylta/30DaysOfSwift/tree/master/Pr
 
 Project 03 - [Play Local Video](https://github.com/Kylta/30DaysOfSwift/tree/master/Project%2003%20-%20Play%20Local%20Video)
 
-![alt text](https://github.com/Kylta/30DaysOfSwift/blob/master/Project%2003%20-%20Play%20Local%20Video/Play_Local_Video.gif?raw=true)
+![alt text](https://github.com//Kylta/30DaysOfSwift/blob/master/Project%2003%20-%20Play%20Local%20Video/Play_Local_Video.gif?raw=true)
