@@ -16,3 +16,7 @@ Project 03 - [Play Local Video](https://github.com/Kylta/30DaysOfSwift/tree/mast
 Project 04 - [Snapchat Menu](https://github.com/Kylta/30DaysOfSwift/tree/master/Project%2004%20-%20SnapChatMenu)
 
 ![alt text](https://raw.githubusercontent.com/Kylta/30DaysOfSwift/master/Project%2004%20-%20SnapChatMenu/SnapchatMenu.gif)
+
+Project 05 - [Carousel Effect](https://github.com/Kylta/30DaysOfSwift/tree/master/Project%2005%20-%20CarouselEffect)
+
+![alt text](https://github.com/Kylta/30DaysOfSwift/blob/master/Project%2005%20-%20CarouselEffect/carouselEffect.gif?raw=true)
