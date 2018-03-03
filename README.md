@@ -20,3 +20,7 @@ Project 04 - [Snapchat Menu](https://github.com/Kylta/30DaysOfSwift/tree/master/
 Project 05 - [Carousel Effect](https://github.com/Kylta/30DaysOfSwift/tree/master/Project%2005%20-%20CarouselEffect)
 
 ![alt text](https://github.com/Kylta/30DaysOfSwift/blob/master/Project%2005%20-%20CarouselEffect/carouselEffect.gif?raw=true)
+
+Projet 06 - [FindMyLocation](https://github.com/Kylta/30DaysOfSwift/tree/master/Project%2006%20-%20FindMyLocation)
+
+![alt text](https://raw.githubusercontent.com/Kylta/30DaysOfSwift/master/Project%2006%20-%20FindMyLocation/FindMyLocation.gif)
