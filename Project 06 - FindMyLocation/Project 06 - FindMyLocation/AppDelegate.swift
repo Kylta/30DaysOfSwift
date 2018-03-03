@@ -1,19 +1,13 @@
 //
 //  AppDelegate.swift
-//  Project 05 - CarouselEffect
+//  Project 06 - FindMyLocation
 //
-//  Created by Christophe Bugnon on 02/03/2018.
+//  Created by Christophe Bugnon on 03/03/2018.
 //  Copyright © 2018 Christophe Bugnon. All rights reserved.
 //
 
 import UIKit
 
-class CustomNavigationBar: UINavigationController {
-    
-    override var preferredStatusBarStyle: UIStatusBarStyle {
-        return .lightContent
-    }
-}
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -22,20 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        
-        window = UIWindow(frame: UIScreen.main.bounds)
-        window?.makeKeyAndVisible()
+        // Override point for customization after application launch.
         
         UIApplication.shared.statusBarStyle = .lightContent
-        
-        let layout = UICollectionViewFlowLayout()
-        layout.scrollDirection = .horizontal
-        
-        layout.minimumLineSpacing = 25
-        layout.minimumInteritemSpacing = 20
-        
-        let collectionVC = CollectionViewController(collectionViewLayout: layout)
-        window?.rootViewController = collectionVC
         
         return true
     }

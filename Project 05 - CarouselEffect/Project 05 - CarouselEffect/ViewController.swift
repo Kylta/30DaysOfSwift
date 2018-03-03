@@ -14,6 +14,7 @@ class CollectionViewController: UICollectionViewController, UICollectionViewDele
         let imageView = UIImageView(image: #imageLiteral(resourceName: "patrick-tomasso-216284-unsplash"))
         imageView.backgroundColor = .blue
         imageView.contentMode = .scaleAspectFill
+        imageView.clipsToBounds = true
         imageView.translatesAutoresizingMaskIntoConstraints = false
         return imageView
     }()

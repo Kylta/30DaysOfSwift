@@ -27,7 +27,8 @@ class ImageCell: UICollectionViewCell {
     
     let pictureView: UIImageView = {
         let iv = UIImageView(image: UIImage())
-        iv.contentMode = .scaleToFill
+        iv.contentMode = .scaleAspectFill
+        iv.clipsToBounds = true
         iv.translatesAutoresizingMaskIntoConstraints = false
         return iv
     }()
