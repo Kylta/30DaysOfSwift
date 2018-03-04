@@ -24,3 +24,7 @@ Project 05 - [Carousel Effect](https://github.com/Kylta/30DaysOfSwift/tree/maste
 Projet 06 - [FindMyLocation](https://github.com/Kylta/30DaysOfSwift/tree/master/Project%2006%20-%20FindMyLocation)
 
 ![alt text](https://raw.githubusercontent.com/Kylta/30DaysOfSwift/master/Project%2006%20-%20FindMyLocation/FindMyLocation.gif)
+
+Projet 07 - [PullToRefresh](https://github.com/Kylta/30DaysOfSwift/tree/master/Project%2007%20-%20PullToRefresh)
+
+![alt text](https://raw.githubusercontent.com/Kylta/30DaysOfSwift/master/Project%2007%20-%20PullToRefresh/PullToRefresh.gif)
