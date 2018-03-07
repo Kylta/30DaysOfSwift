@@ -28,3 +28,11 @@ Projet 06 - [FindMyLocation](https://github.com/Kylta/30DaysOfSwift/tree/master/
 Projet 07 - [PullToRefresh](https://github.com/Kylta/30DaysOfSwift/tree/master/Project%2007%20-%20PullToRefresh)
 
 ![alt text](https://raw.githubusercontent.com/Kylta/30DaysOfSwift/master/Project%2007%20-%20PullToRefresh/PullToRefresh.gif)
+
+Projet 08 - [RandomGradiantColor](https://github.com/Kylta/30DaysOfSwift/tree/master/Project%2008%20-%20RandomGradientColorMusic)
+
+![alt text](https://raw.githubusercontent.com/Kylta/30DaysOfSwift/master/Project%2008%20-%20RandomGradientColorMusic/GradientColor.gif)
+
+Projet 09 - [ImageScroller](https://github.com/Kylta/30DaysOfSwift/tree/master/Project%2009%20-%20ImageScroller)
+
+![alt text](https://raw.githubusercontent.com/Kylta/30DaysOfSwift/master/Project%2009%20-%20ImageScroller/ImageScroller.gif)
