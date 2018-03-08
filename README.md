@@ -41,6 +41,6 @@ Projet 10 - [VideoBackground](https://github.com/Kylta/30DaysOfSwift/tree/master
 
 ![alt text](https://raw.githubusercontent.com/Kylta/30DaysOfSwift/master/Project%2010%20-%20VideoBackground/VideoBackground.gif)
 
-Project 11 - [DegradedTableViewCell](https://github.com/Kylta/30DaysOfSwift/tree/master/Project%2011%20-%20ClearTableViewCell)
+Project 11 - [GradientTableViewCell](https://github.com/Kylta/30DaysOfSwift/tree/master/Project%2011%20-%20ClearTableViewCell)
 
 ![alt text](https://raw.githubusercontent.com/Kylta/30DaysOfSwift/master/Project%2011%20-%20ClearTableViewCell/DegradedTableViewCell.gif)

@@ -21,7 +21,7 @@ class ViewController: UITableViewController {
         tableView.allowsSelection = false
         tableView.backgroundColor = .black
         
-        navigationItem.title = "Degraded cells"
+        navigationItem.title = "Gradient color cells"
         
         setupNavBar()
         
