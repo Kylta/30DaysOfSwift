@@ -44,3 +44,7 @@ Projet 10 - [VideoBackground](https://github.com/Kylta/30DaysOfSwift/tree/master
 Project 11 - [GradientTableViewCell](https://github.com/Kylta/30DaysOfSwift/tree/master/Project%2011%20-%20ClearTableViewCell)
 
 ![alt text](https://raw.githubusercontent.com/Kylta/30DaysOfSwift/master/Project%2011%20-%20ClearTableViewCell/DegradedTableViewCell.gif)
+
+Project 12 - [LoginAnimation](https://github.com/Kylta/30DaysOfSwift/tree/master/Project%2012%20-%20LoginAnimation)
+
+![alt text](https://raw.githubusercontent.com/Kylta/30DaysOfSwift/master/Project%2012%20-%20LoginAnimation/LoginAnimation.gif)
