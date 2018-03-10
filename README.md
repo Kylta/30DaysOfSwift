@@ -48,3 +48,7 @@ Project 11 - [GradientTableViewCell](https://github.com/Kylta/30DaysOfSwift/tree
 Project 12 - [LoginAnimation](https://github.com/Kylta/30DaysOfSwift/tree/master/Project%2012%20-%20LoginAnimation)
 
 ![alt text](https://raw.githubusercontent.com/Kylta/30DaysOfSwift/master/Project%2012%20-%20LoginAnimation/LoginAnimation.gif)
+
+Project 13 - [AnimateCollectionViewCell](https://github.com/Kylta/30DaysOfSwift/tree/master/Project%2013%20-%20AnimateCollectionViewCell)
+
+![alt text](https://github.com/Kylta/30DaysOfSwift/blob/master/Project%2013%20-%20AnimateCollectionViewCell/AnimateCollectionViewCell.gif)
