@@ -42,6 +42,7 @@ class CompanyCell: UICollectionViewCell {
         textView.textColor = .white
         textView.font = UIFont(name: "Helvetica", size: 16)
         textView.backgroundColor = .tealColor
+        textView.isEditable = false
         textView.translatesAutoresizingMaskIntoConstraints = false
         return textView
     }()

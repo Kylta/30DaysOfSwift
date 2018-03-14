@@ -35,7 +35,6 @@ struct CompanyModel {
             CompanyModel(name: "Vans", description: "Vans is an American manufacturer of skateboarding shoes, based in Costa Mesa, California, owned by VF Corporation. The company also produces apparel and other products such as T-shirts, hoodies, socks, hats, and backpacks.", image: #imageLiteral(resourceName: "Vans")),
             CompanyModel(name: "The North Face", description: "The North Face, Inc. is an American outdoor product company specializing in outerwear, fleece, coats, shirts, footwear, and equipment such as backpacks, tents, and sleeping bags.", image: #imageLiteral(resourceName: "The North Face")),
         ]
-        
     }
 }
 
