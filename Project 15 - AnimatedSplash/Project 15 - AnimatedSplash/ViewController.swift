@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         homeScreenView.frame = view.bounds
         
         view.addSubview(homeScreenView)
-        view.backgroundColor = .blue
+        view.backgroundColor = UIColor(red: 30/255, green: 161/255, blue: 242/255, alpha: 1)
         
         setupMask()
         
