@@ -56,3 +56,11 @@ Project 13 - [AnimateCollectionViewCell](https://github.com/Kylta/30DaysOfSwift/
 Project 14 - [EmojiSlotMachine](https://github.com/Kylta/30DaysOfSwift/tree/master/Project%2014%20-%20EmojiSlotMachine)
 
 ![alt text](https://raw.githubusercontent.com/Kylta/30DaysOfSwift/master/Project%2014%20-%20EmojiSlotMachine/EmojiSlotMachine.gif)
+
+Project 15 - [AnimatedSplash](https://github.com/Kylta/30DaysOfSwift/tree/master/Project%2015%20-%20AnimatedSplash)
+
+![alt text](https://raw.githubusercontent.com/Kylta/30DaysOfSwift/master/Project%2015%20-%20AnimatedSplash/AnimatedSplash.gif)
+
+Project 16 - [SlideMenu](https://github.com/Kylta/30DaysOfSwift/tree/master/Project%2016%20-%20SlideMenu)
+
+![alt text](https://raw.githubusercontent.com/Kylta/30DaysOfSwift/master/Project%2016%20-%20SlideMenu/SlideMenu.gif)
